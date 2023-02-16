@@ -14,7 +14,7 @@ class App(ctk.CTk):
         self.geometry("500x500")
         self.title("SaveWatched")
         self.resizable(False, False)
-        ctk.set_default_color_theme("green")
+        ctk.set_default_color_theme("./red.json")
         
         #Верхний фрейм
         self.input_frame = ctk.CTkFrame(master=self, fg_color='transparent')
